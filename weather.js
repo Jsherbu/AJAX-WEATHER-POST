@@ -1,4 +1,4 @@
-//var APPID ="0ada012374e8b3a8039d620cefec02fe";
+//var APPID ="0ada012374e8b3a8039d620cefec02fe"; USE ONLY FOR TESTING FUNCTIONALITY, get your own at openweathermap . org
 var temp;
 var loc;
 var humidity;
