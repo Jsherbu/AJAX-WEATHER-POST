@@ -8,8 +8,8 @@ var zip;
 
 function zipup(){
 	var zip = document.getElementById("Ziptxt").value;
-	var url= "http://api.openweathermap.org/data/2.5/weather?" + "zip=" + zip 
-		+"&APPID=" + APPID;
+	var url= "http://api.openweathermap.org/data/2.5/weather?zip=" + zip 
+		+",us&APPID=" + APPID;
 		sendRequest(url);
 }
 
