@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Justin Sherburne Weather API</title>
+</head>
+
+
+
+<body>
+
+Get your Weather.
+ <br>
+Zipcode: <input type="text" id="Ziptxt" value=""> 
+<button onclick="zipup()">Get Weather By Zip</button>
+<br>
+
+City: <input type="text" id="citytxt" value=""> 
+<button onclick="cityup()">Get Weather By City</button>
+<br>
+
+<script src="weather.js"></script>
+<div class="weatherAPI">
+
+	<div class="temperature"><span id="temperature">0</span>&deg; F</div> 
+	<div class="location"><span id="location">Unknown</span></div>    
+	  <div class="humidity">
+	    <span id="humidity">0</span>% Humidity
+	  </div>
+	  <div class="wind">
+	    <span id="wind">0</span> mph <span id="direction">0 </span>&deg;
+	  </div>
+	</div>
+
+
+</body>
+
+</html>
